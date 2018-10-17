@@ -1,0 +1,30 @@
+{
+  "name": "c4orm",
+  "version": "0.0.1",
+  "description": "C4Framework ORM",
+  "main": "out/index.js",
+  "typings": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sextants/C4ORM.git"
+  },
+  "keywords": [
+    "C4Framework",
+    "ORM"
+  ],
+  "author": "Sextant",
+  "bugs": {
+    "url": "https://github.com/Sextants/C4ORM.git"
+  },
+  "dependencies": {
+    "mysql2": "^1.5.3",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "reflect-metadata": "^0.1.12",
+    "sequelize": "^4.37.6",
+    "sequelize-typescript": "^0.6.3"
+  }
+}
