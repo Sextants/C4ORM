@@ -2,8 +2,7 @@
   "name": "c4orm",
   "version": "0.0.1",
   "description": "C4Framework ORM",
-  "main": "out/index.js",
-  "typings": "src/index.ts",
+  "main": "out",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
