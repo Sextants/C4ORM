@@ -1,4 +1,4 @@
-import { Sequelize, Table, Model, Column, DataType } from 'sequelize-typescript';
+import { Sequelize } from 'sequelize-typescript';
 import TestTable from './DAO/TestTable'
 
 const sequelize = new Sequelize({
@@ -15,7 +15,7 @@ const sequelize = new Sequelize({
         idle : 10000
     },
     logging : false,
-    operatorsAliases : false,
+    // operatorsAliases : false,
     // timezone : "+08:00"
 });
 
@@ -33,4 +33,6 @@ async function launch() {
     console.log(JSON.stringify(QueryRes, null, 4));
 }
 
-launch();
+launch().catch((err) => {
+  console.log(err);
+});

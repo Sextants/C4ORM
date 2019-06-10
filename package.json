@@ -1,6 +1,6 @@
 {
   "name": "c4orm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "C4Framework ORM",
   "main": "out",
   "scripts": {
@@ -19,11 +19,13 @@
     "url": "https://github.com/Sextants/C4ORM.git"
   },
   "dependencies": {
-    "mysql2": "^1.5.3",
-    "pg": "^7.4.1",
-    "pg-hstore": "^2.3.2",
-    "reflect-metadata": "^0.1.12",
-    "sequelize": "^4.37.6",
-    "sequelize-typescript": "^0.6.3"
+    "@types/bluebird": "^3.5.27",
+    "@types/validator": "^10.11.1",
+    "mysql2": "^1.6.5",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": ">=5.3.0",
+    "sequelize-typescript": "^1.0.0-beta.3"
   }
 }

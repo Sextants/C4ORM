@@ -24,7 +24,6 @@ const sequelize = new sequelize_typescript_1.Sequelize({
         idle: 10000
     },
     logging: false,
-    operatorsAliases: false,
 });
 sequelize.addModels([__dirname + '/DAO/*.js']);
 function launch() {
@@ -38,5 +37,7 @@ function launch() {
         console.log(JSON.stringify(QueryRes, null, 4));
     });
 }
-launch();
+launch().catch((err) => {
+    console.log(err);
+});
 //# sourceMappingURL=main.js.map
